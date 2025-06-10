@@ -1,0 +1,222 @@
+
+/* -----------------------------↩
+Darle los estilo al body tipo de letras ↩
+----------------------------- */
+body {
+  font-family : 'Times New Roman', Times, serif;
+  margin: 0 ;
+  padding: 0  ;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  border-color: #ccc;
+}
+/* -----------------------------↩
+Darle color al header y centrar el texto dentro del header↩
+----------------------------- */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}   
+/* -----------------------------↩
+Centrar al nav ul  ↩
+----------------------------- */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+/* -----------------------------↩
+Darle color al nav a  ↩
+----------------------------- */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+/* -----------------------------↩
+Centrar la clases hero y darle el color ↩
+----------------------------- */
+.hero {
+  background-color: #e2e2e2;
+  padding: 40px;
+  text-align: center;
+}
+/* -----------------------------↩
+Centrar los producto3 ↩
+----------------------------- */
+
+.producto3{
+font-family : 'Times New Roman', Times, serif;
+background-color: #fff;
+border: 1px solid #ccc;
+margin: 0 auto;
+padding: 10px;
+width: 100%;
+flex-direction: column;
+border-radius: 1px;
+text-align: center;
+}
+/* -----------------------------↩
+Centrar las imagnes y darle estilo↩
+----------------------------- */
+.producto3 img{
+width: 30%;
+  height: auto;
+  box-shadow: 10px 10px 10px rgb(0, 38, 255);
+}
+
+#productos {
+  padding: 40px;
+  background-color: white;
+}
+
+/* -----------------------------↩
+Centrar los producto ↩
+----------------------------- */
+
+.productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+/* -----------------------------↩
+Darle el border ↩
+----------------------------- */
+.producto {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  flex-direction: column;
+  border-radius: 1px;
+
+}
+/* -----------------------------↩
+Centrar las imagnes y darle estilo↩
+----------------------------- */
+
+.producto img {
+  width: 30%;
+  height: auto;
+  box-shadow: 10px 10px 10px rgb(0, 38, 255);
+}
+
+.back a {
+border-color: #2005bb;
+text-decoration-color: #1d1515;
+}
+/* -----------------------------↩
+Estilos para el contacto↩
+----------------------------- */
+#contacto {
+background-color: #e2e2e2;
+text-align : center;
+min-width : 200px;
+margin : 0 auto;
+font-family : 'Times New Roman', Times, serif;
+background-color : rgb(250, 246, 250);
+}
+/* -----------------------------↩
+Estilos para el foooter↩
+----------------------------- */
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+/* -----------------------------↩
+Estilos de las imagenes↩
+----------------------------- */
+#contacto img {
+width : 80px;
+padding : 40px;
+box-shadow: 10px 10px 10px rgb(0, 38, 255);
+border-radius: 100px;
+
+}
+#contacto{box-shadow: 10px 10px 10px rgb(0, 3, 22);
+  border-radius: 10px;
+  background-color: rgb(64, 74, 102);
+  color: white;
+  margin: 20px auto;
+  
+
+}
+/* -----------------------------↩
+Estilos para el formulario↩
+----------------------------- */
+.contact-form {
+max-width: 600px;
+margin: 2em auto;
+padding: 2em;
+background-color: #ffffff;
+border-radius: 10px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+gap: 1.2em;
+}
+
+.contact-form label {
+font-weight: 600;  
+margin-bottom: 0.3em;
+color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+padding: 0.8em 1em;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 1em;
+transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+border-color: #61dafb;
+box-shadow: 0 0 0 2px rgba(97, 218, 251, 0.2);
+outline: none;
+}
+
+.contact-form .boton {
+background-color: #61dafb;
+color: #fff;
+border: none;
+
+}
+.contact-form .boton:hover {
+background-color: #21a1f1;
+transform: scale(1.03);
+}
+/* Responsive */
+@media (max-width: 768px) {
+.valores {
+  max-width: 100%;
+  padding-left: 1rem;
+}
+}
+.productos {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+header, footer {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .seccion {
+  padding: 1rem;
+}
+}
